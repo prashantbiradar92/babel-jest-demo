@@ -1,0 +1,28 @@
+{
+  "name": "babel-jest-demo",
+  "version": "1.0.0",
+  "description": "Basic babel jest integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashantbiradar92/babel-jest-demo.git"
+  },
+  "keywords": [
+    "babel",
+    "jest"
+  ],
+  "author": "Prashant Biradar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashantbiradar92/babel-jest-demo/issues"
+  },
+  "homepage": "https://github.com/prashantbiradar92/babel-jest-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-jest": "^24.9.0"
+  }
+}
