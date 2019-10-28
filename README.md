@@ -20,10 +20,14 @@ export defaut function sum(a, b) {
 
 Then, create a file named sum.test.js. This will contain our actual test:
 ```
-import sum from './sum';
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
-});
+import sum from  '../src/sum';
+
+describe('Test simple application', ()=>{
+    let result  = sum(10,20);
+    it('test1', async ()=>{
+        expect(result).toBe(30);
+    });
+})
 
 ```
 Add the following section to your package.json:
